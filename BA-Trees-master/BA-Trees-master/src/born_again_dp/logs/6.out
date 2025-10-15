@@ -1,0 +1,29 @@
+tree 10
+----- READING RANDOM FOREST from ../resources/forests/DATA_SET/compas_0training_data.csv.txt
+READING: [TREE 0]
+READING: [TREE 1]
+READING: [TREE 2]
+READING: [TREE 3]
+READING: [TREE 4]
+READING: [TREE 5]
+READING: [TREE 6]
+READING: [TREE 7]
+READING: [TREE 8]
+READING: [TREE 9]
+----- OPTIMAL SOLUTION FOUND                      
+----- OBJECTIVE:                                  Heuristic
+----- CPU TIME(s):                                2227.43
+----- ORIGINAL CELLS:                             140024744055736
+----- FILTERED CELLS:                             0
+----- NB SUBPROBLEMS:                             1.40025e+14
+----- NB RECURSIVE CALLS:                         6.87195e+10
+----- BA TREE DEPTH:                              35
+----- BA TREE LEAVES:                             3903485
+----- EXPORTING STATISTICS in output_6.out
+----- EXPORTING BA TREE in output_6.tree
+----- END OF ALGORITHM 
+
+
+real	37m28,724s
+user	37m11,603s
+sys	0m17,027s

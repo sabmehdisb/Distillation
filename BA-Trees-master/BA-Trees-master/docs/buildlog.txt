@@ -1,0 +1,3 @@
+make : on entre dans le répertoire « /home/cril/Téléchargements/BA-Trees-master/src/born_again_dp »
+make: rien à faire pour « all ».
+make : on quitte le répertoire « /home/cril/Téléchargements/BA-Trees-master/src/born_again_dp »

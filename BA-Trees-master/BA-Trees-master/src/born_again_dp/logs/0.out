@@ -1,0 +1,12 @@
+tree 10
+----- READING RANDOM FOREST from ../resources/forests/DATA_SET/australian_0training_data.csv.txt
+READING: [TREE 0]
+READING: [TREE 1]
+READING: [TREE 2]
+READING: [TREE 3]
+READING: [TREE 4]
+READING: [TREE 5]
+READING: [TREE 6]
+READING: [TREE 7]
+READING: [TREE 8]
+READING: [TREE 9]

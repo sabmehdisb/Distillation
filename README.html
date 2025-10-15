@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supplementary Material</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0 auto;
+        max-width: 1000px;
+        padding: 20px;
+      }
+      h1, h2, h3 {
+        color: #2c3e50;
+      }
+      code {
+        background-color: #f8f8f8;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        font-family: Consolas, Monaco, 'Andale Mono', monospace;
+        padding: 2px 4px;
+      }
+      li {
+        margin-bottom: 8px;
+      }
+      ul {
+        padding-left: 25px;
+      }
+      ul > li > ul {
+        margin-top: 8px;
+      }
+      ul > li:has(strong) {
+        margin-bottom: 16px;
+      }
+      .command {
+        background-color: #f5f5f5;
+        border-left: 4px solid #2c3e50;
+        padding: 8px 12px;
+        margin: 10px 0;
+      }
+      a {
+        color: #3498db;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>A Rectification-Based Approach for Distilling Boosted Trees into Decision Trees</h1>
+    <h2>Supplementary Material</h2>
+    
+    <h2>Contents</h2>
+    <p>This archive contains the following resources:</p>
+    <ul>
+      <li><strong><code>sources</code></strong>: The source code is built on the basis of a Git clone of <a href="https://github.com/crillab/pyxai" target="_blank">https://github.com/crillab/pyxai</a>
+        <ul>
+          <li><code>sources/pyxai/pyxai/examples/Distillation/</code>: This directory contains the code related to the experiments done in the paper; the main file (main.py) is the one to be launched.</li>
+          <li>The main files to execute for all datasets are <code>run_all_default_DT.py</code> for default parameters or <code>run_all_optimised_DT.py</code> for optimized parameters.</li>
+        </ul>
+      </li>
+      
+      <li><strong><code>dataset</code></strong>: The datasets converted and used in our experiments.
+        <p>More precisely, for each dataset, you can find:</p>
+        <ul>
+          <li><code>datasets/&lt;dataset&gt;.csv</code>: The converted dataset.</li>
+          <li><code>datasets/&lt;dataset&gt;.types</code>: A JSON file containing all the information about the features.</li>
+        </ul>
+      </li>
+      
+      <li><strong><code>logs</code></strong>: The outputs produced by the algorithm run in the experiments.
+        <ul>
+          <li><code>logs/default_configuration/</code>: Results obtained without hyperparameter tuning (no limit on the depths of the decision trees) (see Table 3 in the paper).</li>
+          <li><code>logs/optimized_configuration/</code>: Results obtained when the depths of the decision trees have been tuned (see Table 4 in the paper).</li>
+          <li><code>logs/display_box_plots.ipynb</code>: Jupyter notebook used to generate the boxplots (see Figure 4 and Figure 5 in the paper).</li>
+        </ul>
+      </li>
+      
+      <li><strong><code>proofs.pdf</code></strong>: The proofs of the propositions provided in the paper.</li>
+      <li><strong><code>Relative accuracy $I_P$ obtained after rectification or retraining for the dataset under the default configuration.pdf</code></strong>: Figures of relative accuracy $I_P$ for each dataset under default configuration (Figure 4).</li>
+      <li><strong><code>Relative accuracy $I_P$ obtained after rectification or retraining for the dataset under the optimized configuration.pdf</code></strong>: Figures of relative accuracy $I_P$ for each dataset under optimized configuration (Figure 5).</li>
+      <li><strong><code>time_unresolved_instances.pdf</code></strong>: Figures of comparison of unresolved instances over time between P and I for each dataset (Figure3).</li>
+      <li><strong><code>BA-Trees-master</code></strong>: The Born-Again Tree Ensembles (BATE) approach, used as a point of comparison in Section 6 of the paper.
+        <p>Please follow the instructions for using Born-Again Tree Ensembles at <a href="https://github.com/vidalt/BA-Trees" target="_blank">https://github.com/vidalt/BA-Trees</a>. Instead of cloning the software and installing the packages necessary to run Born-Again, please use the source provided in this archive.</p>
+        <ul>
+          <li><code>BA-Trees-master/BA-Trees-master/src/resources/forests/DATA_SET</code>: This directory contains our datasets used with the BATE approach.</li>
+          <li><code>BA-Trees-master/BA-Trees-master/src/born_again_dp/logs</code>: This directory contains the logs related to the BATE experiments with our datasets.</li>
+          <li>The main file to execute for all datasets is <code>script.sh</code>.</li>
+          <li><code>output_6.tree</code> and <code>output_7.tree</code>: These files contain the decision trees obtained for COMPAS and Contraceptive using BATE.</li>
+        </ul>
+      </li>
+      
+      <li><strong><code>xreason</code></strong>: Using MaxSAT for Efficient Explanations of Tree Ensembles, used as a point of comparison in Section 5 of the paper.
+        <p>Please follow the instructions for using xreason at <a href="https://github.com/alexeyignatiev/xreason" target="_blank">https://github.com/alexeyignatiev/xreason</a>. Instead of cloning the software and installing the packages necessary to run XReason, please use the source provided in this archive.</p>
+        <ul>
+          <li><code>xreason/aaai22/bench/ann-thyroid/</code>: This directory contains our datasets used with the MaxSAT approach.</li>
+          <li><code>xreason/src/results/</code>: This directory contains the logs related to the MaxSAT, SMT and Decision Tree experiments with our datasets (log of comparison time between MaxSAT, SMT and Decision Tree) see Table 5.</li>
+          <li><code>xreason/src/results/DT/Comparison_of_unresolved_instances_over_time</code>: Jupyter notebook used to generate Figure 3 in the paper and comparison of unresolved instances over time (time_unresolved_instances.pdf).</li>
+          <li>The main file to train all datasets is <code>aaai22-train-all.py</code>.</li>
+          <li>Given the trained models, the main file to run the experimentation script is <code>aaai22-experiment.py</code>.</li>
+          <li><code>xreason/src/temp/</code>: These files contain the BT obtained for datasets using xreason library.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>Setup</h2>
+    <ul>
+      <li>Be sure to use a Linux OS and a version of Python >= 3.8.</li>
+      <li>Install Pyxai. Follow these <a href="https://www.cril.univ-artois.fr/pyxai/documentation/installation/github/" target="_blank">instructions</a>. Instead of cloning the software, please use the source provided in this archive.</li>
+      <li>Install the required dependencies:
+        <div class="command">
+          <code>python3 -m pip install numpy==2.0.2</code><br>
+          <code>python3 -m pip install pandas==2.2.3</code><br>
+          <code>python3 -m pip install scikit-learn==1.5.2</code><br>
+          <code>python3 -m pip install xgboost==1.7.3</code>
+        </div>
+      </li>
+      <li>To compile the modified version of pyxai in the pyxai directory:
+        <div class="command">
+          <code>python3 -m pip install -e .</code>
+        </div>
+      </li>
+    </ul>
+      
+    <h2>How to Use Our Program</h2>
+    <ul>
+      <li>For a given dataset, the program <code>sources/pyxai/pyxai/examples/Distillation/main.py</code> implements the two approaches presented in the paper: the retraining approach and the rectification approach.</li>
+      
+      <li>First, navigate to the directory:
+        <div class="command">
+          <code>cd sources/pyxai/pyxai/examples/Distillation/</code>
+        </div>
+      </li>
+      
+      <li>For the default configuration of the decision tree:
+        <div class="command">
+          <code>python3 main.py -dataset=../datasets/cleveland_nominal_2_0</code>
+        </div>
+      </li>
+      
+      <li>For the optimized configuration of the decision tree:
+        <div class="command">
+          <code>python3 main.py -dataset=../datasets/cleveland_nominal_2_0 -types=True</code>
+        </div>
+      </li>
+      
+      <li>The program returns 3 files that can be found in the same directory:
+        <ul>
+          <li><code>train_test_data.csv</code>: Instances of the training set L (before binarization).</li>
+          <li><code>validation_data.csv</code>: Instances of the validation set V (before binarization).</li>
+          <li><code>dataset.json</code>: The log file containing the results (in the same form as the ones given in the <code>logs/</code> directory).</li>
+        </ul>
+      </li>
+      
+      <li>
+        <p><strong>Note:</strong> Running the code may yield different results for the retraining method due to the random selection of instances matching the classification rule that has been derived. The conclusions presented in the paper are not impacted by this variability.</p>
+        <p>In contrast, the rectification approach is deterministic.</p>
+      </li> 
+    </ul>
+  </body>
+</html>

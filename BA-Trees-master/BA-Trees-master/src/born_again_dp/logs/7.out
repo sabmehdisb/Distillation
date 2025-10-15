@@ -1,0 +1,29 @@
+tree 10
+----- READING RANDOM FOREST from ../resources/forests/DATA_SET/contraceptive_0training_data.csv.txt
+READING: [TREE 0]
+READING: [TREE 1]
+READING: [TREE 2]
+READING: [TREE 3]
+READING: [TREE 4]
+READING: [TREE 5]
+READING: [TREE 6]
+READING: [TREE 7]
+READING: [TREE 8]
+READING: [TREE 9]
+----- OPTIMAL SOLUTION FOUND                      
+----- OBJECTIVE:                                  Heuristic
+----- CPU TIME(s):                                173.353
+----- ORIGINAL CELLS:                             139876896936984
+----- FILTERED CELLS:                             0
+----- NB SUBPROBLEMS:                             1.39877e+14
+----- NB RECURSIVE CALLS:                         6.87195e+10
+----- BA TREE DEPTH:                              32
+----- BA TREE LEAVES:                             140877
+----- EXPORTING STATISTICS in output_7.out
+----- EXPORTING BA TREE in output_7.tree
+----- END OF ALGORITHM 
+
+
+real	2m54,137s
+user	2m53,488s
+sys	0m0,640s
