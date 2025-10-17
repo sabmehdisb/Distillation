@@ -1,0 +1,170 @@
+i: 24,0,1,0,0,0,0,1,0,3,1,1,0,1,0,0,0,0,1,0,0
+s: 13
+t: 37.986
+c: 0
+
+i: 45,1,0,0,0,0,0,1,0,10,1,1,0,0,1,0,0,0,0,1,0
+s: 9
+t: 45.599
+c: 0
+
+i: 43,0,1,0,0,0,0,1,0,7,1,1,0,0,1,0,0,0,0,1,0
+s: 13
+t: 44.440
+c: 0
+
+i: 42,0,0,1,0,0,1,0,0,9,1,1,0,0,1,0,0,0,1,0,0
+s: 10
+t: 47.887
+c: 0
+
+i: 36,0,0,1,0,0,0,1,0,8,1,1,0,0,1,0,0,1,0,0,0
+s: 10
+t: 52.538
+c: 0
+
+[TIMEOUT MaxSAT] instance 5
+i: 38,0,1,0,0,0,0,1,0,6,1,1,0,0,1,0,0,1,0,0,0
+s: 9
+t: 105.280
+c: 0
+
+i: 21,0,0,1,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,0,0
+s: 12
+t: 103.838
+c: 0
+
+i: 27,0,1,0,0,0,0,1,0,3,1,1,0,0,1,0,0,0,0,1,0
+s: 11
+t: 65.958
+c: 0
+
+[TIMEOUT MaxSAT] instance 9
+[TIMEOUT MaxSAT] instance 10
+[TIMEOUT MaxSAT] instance 11
+[TIMEOUT MaxSAT] instance 12
+[TIMEOUT MaxSAT] instance 13
+i: 38,0,0,1,0,0,0,0,1,2,1,1,0,1,0,0,0,0,1,0,0
+s: 13
+t: 64.650
+c: 0
+
+[TIMEOUT MaxSAT] instance 15
+[TIMEOUT MaxSAT] instance 16
+[TIMEOUT MaxSAT] instance 17
+[TIMEOUT MaxSAT] instance 18
+[TIMEOUT MaxSAT] instance 19
+[TIMEOUT MaxSAT] instance 20
+[TIMEOUT MaxSAT] instance 21
+[TIMEOUT MaxSAT] instance 22
+[TIMEOUT MaxSAT] instance 23
+[TIMEOUT MaxSAT] instance 24
+[TIMEOUT MaxSAT] instance 25
+[TIMEOUT MaxSAT] instance 26
+[TIMEOUT MaxSAT] instance 27
+[TIMEOUT MaxSAT] instance 28
+[TIMEOUT MaxSAT] instance 29
+[TIMEOUT MaxSAT] instance 30
+[TIMEOUT MaxSAT] instance 31
+[TIMEOUT MaxSAT] instance 32
+[TIMEOUT MaxSAT] instance 33
+[TIMEOUT MaxSAT] instance 34
+[TIMEOUT MaxSAT] instance 35
+[TIMEOUT MaxSAT] instance 36
+[TIMEOUT MaxSAT] instance 37
+[TIMEOUT MaxSAT] instance 38
+i: 28,0,1,0,0,0,1,0,0,1,1,1,0,1,0,0,0,0,0,1,0
+s: 13
+t: 59.546
+c: 0
+
+[TIMEOUT MaxSAT] instance 40
+[TIMEOUT MaxSAT] instance 41
+[TIMEOUT MaxSAT] instance 42
+[TIMEOUT MaxSAT] instance 43
+i: 28,0,1,0,0,0,1,0,0,1,1,1,0,0,1,0,0,1,0,0,0
+s: 12
+t: 74.186
+c: 0
+
+[TIMEOUT MaxSAT] instance 45
+[TIMEOUT MaxSAT] instance 46
+[TIMEOUT MaxSAT] instance 47
+[TIMEOUT MaxSAT] instance 48
+[TIMEOUT MaxSAT] instance 49
+[TIMEOUT MaxSAT] instance 50
+[TIMEOUT MaxSAT] instance 51
+[TIMEOUT MaxSAT] instance 52
+[TIMEOUT MaxSAT] instance 53
+[TIMEOUT MaxSAT] instance 54
+i: 20,0,1,0,0,0,1,0,0,2,1,1,0,1,0,0,0,1,0,0,1
+s: 7
+t: 80.898
+c: 0
+
+i: 43,0,0,0,1,0,0,0,1,5,1,0,1,0,0,0,0,0,0,1,0
+s: 10
+t: 104.644
+c: 0
+
+[TIMEOUT MaxSAT] instance 57
+[TIMEOUT MaxSAT] instance 58
+[TIMEOUT MaxSAT] instance 59
+[TIMEOUT MaxSAT] instance 60
+[TIMEOUT MaxSAT] instance 61
+[TIMEOUT MaxSAT] instance 62
+[TIMEOUT MaxSAT] instance 63
+[TIMEOUT MaxSAT] instance 64
+[TIMEOUT MaxSAT] instance 65
+[TIMEOUT MaxSAT] instance 66
+[TIMEOUT MaxSAT] instance 67
+[TIMEOUT MaxSAT] instance 68
+[TIMEOUT MaxSAT] instance 69
+[TIMEOUT MaxSAT] instance 70
+[TIMEOUT MaxSAT] instance 71
+[TIMEOUT MaxSAT] instance 72
+[TIMEOUT MaxSAT] instance 73
+[TIMEOUT MaxSAT] instance 74
+i: 21,0,0,1,0,0,0,0,1,1,1,1,0,1,0,0,0,0,1,0,0
+s: 9
+t: 105.431
+c: 0
+
+[TIMEOUT MaxSAT] instance 76
+[TIMEOUT MaxSAT] instance 77
+[TIMEOUT MaxSAT] instance 78
+[TIMEOUT MaxSAT] instance 79
+i: 49,0,0,0,1,0,0,0,1,6,0,0,1,0,0,0,0,0,0,1,0
+s: 11
+t: 97.251
+c: 0
+
+[TIMEOUT MaxSAT] instance 81
+[TIMEOUT MaxSAT] instance 82
+[TIMEOUT MaxSAT] instance 83
+[TIMEOUT MaxSAT] instance 84
+[TIMEOUT MaxSAT] instance 85
+[TIMEOUT MaxSAT] instance 86
+[TIMEOUT MaxSAT] instance 87
+[TIMEOUT MaxSAT] instance 88
+[TIMEOUT MaxSAT] instance 89
+[TIMEOUT MaxSAT] instance 90
+[TIMEOUT MaxSAT] instance 91
+[TIMEOUT MaxSAT] instance 92
+[TIMEOUT MaxSAT] instance 93
+[TIMEOUT MaxSAT] instance 94
+[TIMEOUT MaxSAT] instance 95
+[TIMEOUT MaxSAT] instance 96
+[TIMEOUT MaxSAT] instance 97
+[TIMEOUT MaxSAT] instance 98
+[TIMEOUT MaxSAT] instance 99
+MaxSAT max time: 105.43
+MaxSAT min time: 37.99
+MaxSAT avg time: 72.68
+MaxSAT cumulative time: 1090.13
+nombre of explain instances: 15
+all times: 37.986, 45.599, 44.440, 47.887, 52.538, 105.280, 103.838, 65.958, 64.650, 59.546, 74.186, 80.898, 104.644, 105.431, 97.251
+MaxSAT std dev: 25.13
+
+mem usage: SMT=0.0 MB MaxSAT=0.0 MB
+Nombre of timeouts MaxSAT: 85

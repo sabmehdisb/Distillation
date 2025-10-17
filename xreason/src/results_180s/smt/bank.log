@@ -1,0 +1,174 @@
+i: 30,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,1787,0,0,1,0,0,19,0,0,0,0,0,0,0,0,0,0,1,0,79,1,-1,0,0,0,0,1
+s: 20
+t: 69.361
+
+[TIMEOUT SMT] instance 1
+[TIMEOUT SMT] instance 2
+[TIMEOUT SMT] instance 3
+[TIMEOUT SMT] instance 4
+[TIMEOUT SMT] instance 5
+[TIMEOUT SMT] instance 6
+[TIMEOUT SMT] instance 7
+[TIMEOUT SMT] instance 8
+[TIMEOUT SMT] instance 9
+[TIMEOUT SMT] instance 10
+[TIMEOUT SMT] instance 11
+i: 36,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,1109,0,0,1,0,0,13,0,1,0,0,0,0,0,0,0,0,0,0,328,2,-1,0,0,0,0,1
+s: 21
+t: 28.282
+
+[TIMEOUT SMT] instance 13
+[TIMEOUT SMT] instance 14
+[TIMEOUT SMT] instance 15
+i: 56,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,4073,0,0,1,0,0,27,0,1,0,0,0,0,0,0,0,0,0,0,239,5,-1,0,0,0,0,1
+s: 22
+t: 24.267
+
+[TIMEOUT SMT] instance 17
+[TIMEOUT SMT] instance 18
+[TIMEOUT SMT] instance 19
+[TIMEOUT SMT] instance 20
+[TIMEOUT SMT] instance 21
+[TIMEOUT SMT] instance 22
+[TIMEOUT SMT] instance 23
+[TIMEOUT SMT] instance 24
+[TIMEOUT SMT] instance 25
+[TIMEOUT SMT] instance 26
+[TIMEOUT SMT] instance 27
+[TIMEOUT SMT] instance 28
+[TIMEOUT SMT] instance 29
+[TIMEOUT SMT] instance 30
+i: 31,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,171,0,0,1,0,0,27,0,1,0,0,0,0,0,0,0,0,0,0,81,3,-1,0,0,0,0,1
+s: 19
+t: 175.705
+
+[TIMEOUT SMT] instance 32
+[TIMEOUT SMT] instance 33
+i: 49,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,1235,0,0,1,0,0,13,0,1,0,0,0,0,0,0,0,0,0,0,354,3,-1,0,0,0,0,1
+s: 20
+t: 63.903
+
+[TIMEOUT SMT] instance 35
+i: 78,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,229,0,0,0,1,0,22,0,0,0,0,0,0,0,0,0,0,1,0,97,1,-1,0,0,0,0,1
+s: 27
+t: 24.363
+
+[TIMEOUT SMT] instance 37
+i: 33,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,3935,1,0,1,0,0,6,0,0,0,0,0,0,0,0,1,0,0,0,765,1,342,2,1,0,0,0
+s: 21
+t: 172.632
+
+[TIMEOUT SMT] instance 39
+[TIMEOUT SMT] instance 40
+[TIMEOUT SMT] instance 41
+i: 52,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1117,1,0,1,0,0,13,0,0,0,0,0,0,0,0,1,0,0,0,365,1,-1,0,0,0,0,1
+s: 27
+t: 136.255
+
+[TIMEOUT SMT] instance 43
+[TIMEOUT SMT] instance 44
+[TIMEOUT SMT] instance 45
+i: 55,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,145,0,0,0,1,0,2,0,0,0,1,0,0,0,0,0,0,0,0,59,3,5,2,0,1,0,0
+s: 25
+t: 114.373
+
+i: 26,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,1,21,0,0,0,0,0,0,0,0,1,0,0,0,425,1,-1,0,0,0,0,1
+s: 29
+t: 12.761
+
+[TIMEOUT SMT] instance 48
+[TIMEOUT SMT] instance 49
+[TIMEOUT SMT] instance 50
+[TIMEOUT SMT] instance 51
+[TIMEOUT SMT] instance 52
+[TIMEOUT SMT] instance 53
+[TIMEOUT SMT] instance 54
+[TIMEOUT SMT] instance 55
+[TIMEOUT SMT] instance 56
+i: 33,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,2155,0,0,1,0,0,17,0,0,0,0,0,0,0,0,0,1,0,0,295,1,-1,0,0,0,0,1
+s: 23
+t: 10.659
+
+[TIMEOUT SMT] instance 58
+i: 54,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,784,1,1,0,0,1,15,0,0,0,0,0,0,0,0,1,0,0,0,579,1,-1,0,0,0,0,1
+s: 26
+t: 77.144
+
+i: 41,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,-516,0,1,0,1,0,8,0,0,0,0,0,1,0,0,0,0,0,0,554,3,-1,0,0,0,0,1
+s: 20
+t: 79.729
+
+i: 63,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,415,1,0,1,0,0,7,0,0,0,0,0,0,0,0,0,0,1,0,323,1,-1,0,0,0,0,1
+s: 21
+t: 66.927
+
+[TIMEOUT SMT] instance 62
+[TIMEOUT SMT] instance 63
+[TIMEOUT SMT] instance 64
+[TIMEOUT SMT] instance 65
+[TIMEOUT SMT] instance 66
+[TIMEOUT SMT] instance 67
+[TIMEOUT SMT] instance 68
+[TIMEOUT SMT] instance 69
+[TIMEOUT SMT] instance 70
+[TIMEOUT SMT] instance 71
+[TIMEOUT SMT] instance 72
+[TIMEOUT SMT] instance 73
+[TIMEOUT SMT] instance 74
+[TIMEOUT SMT] instance 75
+[TIMEOUT SMT] instance 76
+[TIMEOUT SMT] instance 77
+i: 50,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,388,0,0,1,0,0,5,0,0,0,1,0,0,0,0,0,0,0,0,701,1,-1,0,0,0,0,1
+s: 20
+t: 133.086
+
+[TIMEOUT SMT] instance 79
+[TIMEOUT SMT] instance 80
+[TIMEOUT SMT] instance 81
+[TIMEOUT SMT] instance 82
+[TIMEOUT SMT] instance 83
+i: 37,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1315,0,0,1,0,0,30,0,0,0,0,0,0,1,0,0,0,0,0,224,1,-1,0,0,0,0,1
+s: 24
+t: 66.754
+
+[TIMEOUT SMT] instance 85
+[TIMEOUT SMT] instance 86
+i: 35,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,293,1,0,0,0,1,30,0,0,0,0,0,0,0,0,1,0,0,0,521,2,-1,0,0,0,0,1
+s: 24
+t: 42.942
+
+[TIMEOUT SMT] instance 88
+[TIMEOUT SMT] instance 89
+[TIMEOUT SMT] instance 90
+[TIMEOUT SMT] instance 91
+i: 27,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,-195,1,0,1,0,0,18,0,0,0,0,0,0,0,0,1,0,0,0,391,1,-1,0,0,0,0,1
+s: 24
+t: 12.476
+
+i: 32,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,3616,0,0,1,0,0,14,0,1,0,0,0,0,0,0,0,0,0,0,165,2,-1,0,0,0,0,1
+s: 24
+t: 76.994
+
+[TIMEOUT SMT] instance 94
+i: 41,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,1567,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,291,2,-1,0,0,0,0,1
+s: 19
+t: 30.509
+
+[TIMEOUT SMT] instance 96
+i: 30,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,261,0,0,1,0,0,19,0,0,0,0,0,0,0,0,0,0,1,0,233,1,137,20,1,0,0,0
+s: 26
+t: 12.313
+
+[TIMEOUT SMT] instance 98
+i: 31,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,406,0,0,1,0,0,4,0,0,0,1,0,0,0,0,0,0,0,0,736,1,-1,0,0,0,0,1
+s: 21
+t: 149.838
+
+SMT max time: 175.70
+SMT min time: 10.66
+SMT avg time: 71.88
+SMT cumulative time: 1581.27
+nombre of explain instances: 22
+SMT std dev: 53.56
+
+Nombre of timeouts SMT: 78

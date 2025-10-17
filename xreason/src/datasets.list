@@ -1,0 +1,17 @@
+../aaai22/bench/ann-thyroid/arrowhead_0_vs_1.csv
+../aaai22/bench/ann-thyroid/arrowhead_0_vs_2.csv
+../aaai22/bench/ann-thyroid/arrowhead_1_vs_2.csv
+../aaai22/bench/ann-thyroid/australian.csv
+../aaai22/bench/ann-thyroid/balance_0_vs_1.csv
+../aaai22/bench/ann-thyroid/balance_0_vs_2.csv
+../aaai22/bench/ann-thyroid/balance_1_vs_2.csv
+../aaai22/bench/ann-thyroid/breast-tumor.csv
+../aaai22/bench/ann-thyroid/bupa.csv
+../aaai22/bench/ann-thyroid/cleveland.csv
+../aaai22/bench/ann-thyroid/cnae.csv
+../aaai22/bench/ann-thyroid/compas.csv
+../aaai22/bench/ann-thyroid/contraceptive.csv
+../aaai22/bench/ann-thyroid/divorce.csv
+../aaai22/bench/ann-thyroid/german.csv
+../aaai22/bench/ann-thyroid/biodegradation.csv
+../aaai22/bench/ann-thyroid/bank.csv
