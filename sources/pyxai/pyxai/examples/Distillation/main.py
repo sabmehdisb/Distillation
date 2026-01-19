@@ -135,7 +135,7 @@ for i, dt_model in enumerate(dt_models) :
         bt_explainer.set_instance(raw_validation[id_instance])
         y_test1.append(bt_explainer.target_prediction)# y_test1 is the label, and it is considered as the prediction of the decision tree with 100% confidence
         # Display the instances
-        assert [0 if l < 0 else 1 for l in bt_explainer.binary_representation] == list(instance_dt), "ca va pas!"
+        assert [0 if l < 0 else 1 for l in bt_explainer.binary_representation] == list(instance_dt), "!"
         if(bt_explainer.target_prediction==label_dt):
             sufficient_reason_numeric2+=1 # However, we still calculate the number of times the decision tree had a correct prediction with the real label of the validation set
         if prediction_dt != bt_explainer.target_prediction:
