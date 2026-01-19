@@ -2,12 +2,6 @@
 ##
 ## experiment.py
 ##
-##  Created on: Aug 27, 2021
-##      Author: Alexey Ignatiev
-##      E-mail: alexey.ignatiev@monash.edu
-##
-
-#
 #==============================================================================
 from __future__ import print_function
 import getopt
@@ -90,9 +84,9 @@ def usage():
 
 import signal
 
-# Fonction qui sera appelée si le timeout est dépassé
+# This function will be called if the timeout is exceeded.
 def handler(signum, frame):
-    raise TimeoutError("Timeout dépassé")
+    raise TimeoutError("timeout exceeded")
 
 
 #
@@ -122,7 +116,7 @@ if __name__ == '__main__':
 
     soptions = Options(f'./xreason.py --relax {relax} -z  -X abd -R lin -u -N 1 -e smt -x \'inst\' somefile'.split())
     moptions = Options(f'./xreason.py --relax {relax} -s g3 -z -X abd -R lin -u -N 1 -e mx -x \'inst\' somefile'.split())
-    # ton dictionnaire des paramètres
+    # parameter dictionary
     param_dict = {
     "arrowhead_0_vs_1.csv": (8, 150),
     "arrowhead_0_vs_2.csv": (8, 150),
@@ -167,12 +161,12 @@ if __name__ == '__main__':
                 nof_insts = min(int(len(insts) * count), len(insts))
             print(f'considering {nof_insts} instances')
         
-        # récupérer les paramètres pour ce dataset
-        # récupérer le nom de base sans extension pour le dossier et le fichier
+        # retrieve the parameters for this dataset
+        # retrieve the base name without extension for the folder and file
         base = os.path.splitext(os.path.basename(data))[0]  # "arrowhead_0_vs_1"
         adepth, anum = param_dict.get(os.path.basename(data), (depth, num))
 
-        # construire mfile avec le dossier et le fichier corrects
+        # Build mfile with the correct folder and file
         mfile = f'temp/{base}/{base}_nbestim_{anum}_maxdepth_{adepth}_testsplit_0.3.mod.pkl'
 
 
@@ -194,7 +188,7 @@ if __name__ == '__main__':
 
         #with open("/tmp/texture.samples", 'r') as fp:
         #    insts = [line.strip() for line in fp.readlines()]
-        # Mettre le handler
+        # Install the handler
         signal.signal(signal.SIGALRM, handler)
         # loop
         smt_timeouts = 0
@@ -204,7 +198,7 @@ if __name__ == '__main__':
             if i == nof_insts:
                 break
 
-            # préparer les données
+            # prepare the data
             soptions.explain = [float(v.strip()) for v in inst.split(',')]
             moptions.explain = [float(v.strip()) for v in inst.split(',')]
 
@@ -229,9 +223,9 @@ if __name__ == '__main__':
                 smt_timeouts += 1
                 print(f"[TIMEOUT SMT] instance {i}", file=slog)
             finally:
-                signal.alarm(0)  # Toujours annuler l'alarme
+                signal.alarm(0)  
 
-            # ----- MaxSAT ----- (traiter même si SMT a échoué)
+            # ----- MaxSAT ----- 
             try:
                 signal.alarm(3*60)  # timeout MaxSAT
                 expl2 = mxgb.explain(moptions.explain)
@@ -251,14 +245,14 @@ if __name__ == '__main__':
                 maxsat_timeouts += 1
                 print(f"[TIMEOUT MaxSAT] instance {i}", file=mlog)
             finally:
-                signal.alarm(0)  # Toujours annuler l'alarme
+                signal.alarm(0)  
 
             slog.flush()
             mlog.flush()
             sys.stdout.flush()
 
-        # ----- après la boucle : affichage mémoire et stats -----
-        # Affichage des statistiques SMT
+        # ----- After the loop: memory and stats display -----
+        # Displaying statistics SMT
         if stimes:
             print(f"SMT max time: {max(stimes):.2f}", file=slog)
             print(f"SMT min time: {min(stimes):.2f}", file=slog)
@@ -266,11 +260,11 @@ if __name__ == '__main__':
             print(f"SMT cumulative time: {sum(stimes):.2f}", file=slog)
             print(f"nombre of explain instances: {len(stimes)}", file=slog)
             print("all times:", ", ".join(f"{t:.3f}" for t in stimes), file=slog)
-            if len(stimes) > 1:  # statistics.stdev nécessite au moins 2 valeurs
+            if len(stimes) > 1:  # statistics.stdev requires at least 2 values
                 print(f"SMT std dev: {statistics.stdev(stimes):.2f}", file=slog)
             print('', file=slog)
 
-        # Affichage des statistiques MaxSAT
+        # Displaying statistics MaxSAT
         if mtimes:
             print(f"MaxSAT max time: {max(mtimes):.2f}", file=mlog)
             print(f"MaxSAT min time: {min(mtimes):.2f}", file=mlog)
@@ -284,7 +278,7 @@ if __name__ == '__main__':
                 print(f"MaxSAT std dev: {statistics.stdev(mtimes):.2f}", file=mlog)
             print('', file=mlog)
 
-        # Correction pour éviter les erreurs si les listes sont vides
+        # Correction to avoid errors if the lists are empty
         if smem and mxmem:
             print(f"mem usage: SMT={smem[-1]} MB MaxSAT={mxmem[-1]} MB", file=mlog)
         elif smem:
@@ -292,7 +286,7 @@ if __name__ == '__main__':
         elif mxmem:
             print(f"mem usage: SMT=N/A MB MaxSAT={mxmem[-1]} MB", file=mlog)
 
-        # ----- log des timeouts -----
+        # ----- Timeout log -----
         print(f"Nombre of timeouts SMT: {smt_timeouts}", file=slog)
         print(f"Nombre of timeouts MaxSAT: {maxsat_timeouts}", file=mlog)
 

@@ -2,12 +2,6 @@
 ##
 ## train-all.py
 ##
-##  Created on: Aug 27, 2021
-##      Author: Alexey Ignatiev
-##      E-mail: alexey.ignatiev@monash.edu
-##
-
-#
 #==============================================================================
 from __future__ import print_function
 import getopt
